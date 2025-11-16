@@ -1,4 +1,61 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
-	"version": 3
+	"version": 3,
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"name": "Geist",
+					"slug": "geist",
+					"fontFamily": "Geist, sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/geist/Geist[wght].woff2"
+							],
+							"fontWeight": "100 900",
+							"fontStyle": "normal",
+							"fontFamily": "Geist"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/geist/Geist-Italic[wght].woff2"
+							],
+							"fontWeight": "100 900",
+							"fontStyle": "italic",
+							"fontFamily": "Geist"
+						}
+					]
+				},
+				{
+					"name": "Geist Mono",
+					"slug": "geist-mono",
+					"fontFamily": "\"Geist Mono\", monospace",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/geist-mono/GeistMono[wght].woff2"
+							],
+							"fontWeight": "100 900",
+							"fontStyle": "normal",
+							"fontFamily": "\"Geist Mono\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/geist-mono/GeistMono-Italic[wght].woff2"
+							],
+							"fontWeight": "100 900",
+							"fontStyle": "italic",
+							"fontFamily": "\"Geist Mono\""
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|geist"
+		}
+	}
 }
