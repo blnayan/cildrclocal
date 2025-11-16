@@ -1,0 +1,26 @@
+{
+    "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+    "version": 3,
+    "title": "Primary",
+    "slug": "button-primary",
+    "blockTypes": [
+        "core/button"
+    ],
+    "styles": {
+        "color": {
+            "background": "var:preset|color|contrast",
+            "text": "var:preset|color|base"
+        },
+        "border": {
+            "radius": "0.375rem"
+        },
+        "spacing": {
+            "padding": {
+                "top": "0.5rem",
+                "bottom": "0.5rem",
+                "right": "1rem",
+                "left": "1rem"
+            }
+        }
+    }
+}
