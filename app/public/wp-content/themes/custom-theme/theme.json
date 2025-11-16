@@ -213,13 +213,19 @@
 		"typography": {
 			"fontFamily": "var:preset|font-family|geist"
 		},
+		"blocks": {
+			"core/code": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|geist-mono"
+				}
+			}
+		},
 		"elements": {
 			"button": {
 				"color": {
 					"background": "var:preset|color|primary",
 					"text": "var:preset|color|background"
 				}
-
 			}
 		}
 	}
